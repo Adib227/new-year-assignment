@@ -1,30 +1,92 @@
-.container{
+
+.container {
   background-image: url('../resources/Banner\ Image.png');
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%)url('../resources/Banner\ Image.png');
+  /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%)url('../resources/Banner\ Image.png'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1380px;
-  height: 400px;
-  width: 82.5%;
+  height: 600px;
+   width: 82.5%;
   margin: 50px auto 0;
   color: white;
   text-align: center;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
-}   
-
-.highlighter{
-  color: #FFF;
-text-align: center;
-font-size: 72px;
-font-weight: 900;
-margin-bottom: 50px;
+  justify-content: center; */
 }
-.title{
+
+.highlighter {
   color: #FFF;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 50px;
+  margin-top: 0;
+  padding-top: 0;
+  text-decoration: solid;
+}
+
+.title {
+  color: #FFF;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 150px;
+  text-decoration: solid;
+}
+
+.overlay {
+  /* position: fixed; Sit on top of the page content */
+  /* display: none; Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+.body{
+  justify-items: center;
+  text-align: center;
+  font-family: Inter;
+  margin-top: 120px;
+}
+.image-body{
+  display: flex;
+justify-content: center;
+height: 400px;
+}
+
+.body-title{
+  color: #F00;
 text-align: center;
-font-size: 32px;
-font-weight: 400;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+}
+
+.body-title1{
+  color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+
+.body-title2{
+  color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+
+.main-container{
+  background-image: url('../resources/Vectorrr.png');
+  fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
