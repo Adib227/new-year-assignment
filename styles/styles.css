@@ -274,8 +274,15 @@ width: 300px;
   margin-left: 170px;
 }
 
-.main-one{
+/* .main-one{
+  width: 1600px;
+  height: 1500px;
+} */
 
+.image-div{
+  background-image: url('../resources/Rectangle\ 1.png'), url('../resources/Rectangle\ 2.png');
+  background-repeat: no-repeat;
+  background-position: top right, bottom left; 
 }
 
 .section-1{
@@ -303,6 +310,12 @@ margin-left: 300px;
 .image-div{
   margin-left: 300px;
   max-width: 1400px;
+  /* margin-bottom: 300px; */
+  /* padding-bottom: 300px; */
+}
+
+.girl-image{
+  margin-left: 890px;
 }
 
 
@@ -410,27 +423,54 @@ font-weight: 600;
 
 .footer-section{
   display: block;
-  width: 1600px;
-  height: 609px;
+  width: 1650px;
+  height: 500px;
   margin-top: 100px;
    background: #070211;
    width: auto;
    /* background: none; */
 }
 
+.address{
+  justify-content: center;
+  color: #FFF;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-right: 400px;
+}
+
 .address-location{
   color: #FFF;
-font-size: 24px;
+font-size: 25px;
 font-weight: 600;
 line-height: 40px; 
-margin-left: 300px;
-padding-top: 100px;
+margin-top: 120px;
 }
 
-.address-contact{
+.address-link{
   color: #FFF;
-font-size: 24px;
-font-weight: 500;
+font-size: 25px;
+font-weight: 600;
 line-height: 40px;
+margin-top: 120px;
 }
 
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.finish{
+  display: flex;
+  color: #FFF;
+font-size: 25px;
+font-weight: 500;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+ girl
