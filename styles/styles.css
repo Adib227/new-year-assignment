@@ -283,6 +283,9 @@ width: 300px;
   background-image: url('../resources/Rectangle\ 1.png'), url('../resources/Rectangle\ 2.png');
   background-repeat: no-repeat;
   background-position: top right, bottom left; 
+  margin-left: 300px;
+  /* margin-right: 300px; */
+  max-width: 1320px;
 }
 
 .image-4{
@@ -318,12 +321,12 @@ width: 1000px;
 margin-left: 300px;
 }
 
-.image-div{
+/* .image-div{
   margin-left: 300px;
   max-width: 1400px;
   /* margin-bottom: 300px; */
   /* padding-bottom: 300px; */
-}
+} */
 
 .girl-image{
   margin-left: 890px;
@@ -484,4 +487,3 @@ font-weight: 500;
   margin-left: 300px;
   margin-right: 300px;
 }
- girl
