@@ -285,6 +285,17 @@ width: 300px;
   background-position: top right, bottom left; 
 }
 
+.image-4{
+  /* margin-right: 200px; */
+}
+.image-5{
+  /* margin-top: 100px;
+  margin-left: 100px; */
+  /* padding-bottom: 120px; */
+  margin-bottom: 300px; 
+  margin-right: 200px;
+}
+
 .section-1{
     color: #070211;
 font-size: 25px;
